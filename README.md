@@ -1,4 +1,4 @@
-### java_itellij_IDEA
+# java_itellij_IDEA
 
 ## 在 Windows 系統下安裝 itellij IDEA 
 
