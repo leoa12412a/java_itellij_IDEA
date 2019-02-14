@@ -1,6 +1,6 @@
-# java_itellij_IDEA
+### java_itellij_IDEA
 
-在 Windows 系統下安裝 itellij IDEA 
+## 在 Windows 系統下安裝 itellij IDEA 
 
 進入官網(https://www.jetbrains.com/idea/)下載 itellij IDEA 的可執行文件
 
@@ -44,5 +44,16 @@
 再來就是建立輸出文字，一樣這個也有快捷鍵，sout，是System.out.println()的縮寫
 
 ![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/8.png)</br></br>
+
+再來執行的話，點選上方Run->Run '專案名稱'，如果有package的話需要修改Run->Edit Configrations
+->Application->專案名稱->Main class->'package名稱.專案名稱'
+
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/9.png)</br></br>
+
+執行後就可以在下方欄位看到輸出結果，下方還有一個terminal按鈕，跟本機終端是一樣的東西
+
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/10.png)</br></br>
+
+
 
 
