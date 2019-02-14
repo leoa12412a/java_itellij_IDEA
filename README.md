@@ -8,6 +8,20 @@
 
 旗艦版是收費的，而社區版是免費的，旗艦版的筆社區版的功能更全面，安裝的項目基本上都是下一步就可以了。
 
-安裝完後第一次開啟程式會長這樣
+安裝完後第一次開啟程式會長這樣，按下Create new project來建立一個新的專案
 
 ![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/1.PNG)</br></br>
+
+建立好之後，我們需要使用右上角的New 按鈕幫我們的專案裝上JDK(java SDK)
+
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/2.PNG)</br></br>
+
+而JDK可到https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html下載
+
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/3.PNG)</br></br>
+
+設定完JDK後，IDEA會詢問是否需要建立樣板 ， Command Line App會建立一個包含主函式(main)的樣板，而Java Hello World當然就是執行hello world
+
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/4.PNG)</br></br>
+
+
