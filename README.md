@@ -34,12 +34,12 @@
 
 建立java class的時候如果輸入 myjava.helloworld ，意思就是myjava這包(package)下面的helloworld.java，所以如果想在同一個package建立的時候需要特別留意
 
-![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/7.png)</br></br>
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/7.PNG)</br></br>
 
 建立好之後會看到頁面最上方已經有寫上package，且基本的public class也建立好了，這時候我們需要建立一個主函式(main)
 輸入psvm是建立主函式的快捷鍵，也是public static void main的縮寫
 
-![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/8.PNG)</br></br>
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/8.png)</br></br>
 
 再來就是建立輸出文字，一樣這個也有快捷鍵，sout，是System.out.println()的縮寫
 
@@ -60,9 +60,12 @@ java格式的檔案可以在終端機使用javac XXX.java把檔案變成java.cla
 
 如果已經安裝JDK但是還是找不到javac指令的時候，到控制台->系統->進階系統設定>進階->環境變數->系統變數->Path(編輯)->瀏覽->/JDK/bin
 
-![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/12.PNG)</br></br>
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/12.png)</br></br>
 
 如果執行中文的時候發生亂碼錯誤，cmd：javac  -encoding utf-8  xx.java
-也可以到 控制台->系統->進階系統設定>進階->環境變數->
-
+也可以到 控制台->系統->進階系統設定>進階->環境變數->系統變數(新增)->
+變數名稱 : JAVA_TOOL_OPTIONS
+變數值 : -Dfile.encoding=UTF-8
+這樣以後每次執行都會是UTF-8
+![image](https://github.com/leoa12412a/java_itellij_IDEA/blob/master/13.PNG)</br></br>
 
